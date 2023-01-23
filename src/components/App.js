@@ -18,7 +18,7 @@ const App = () => {
       </div>
 
       <div id="range-b-holder">
-        <input type={"range"} value={b} onChange={(e) =>setA(e.target.value)} max={t-a} />
+        <input type={"range"} value={b} onChange={(e) =>setB(e.target.value)} max={t-a} />
         <span id="range-b-value">{b}</span>
       </div>
 
